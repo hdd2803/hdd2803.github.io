@@ -38,11 +38,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 
 #### 3、安装Markdown Preview
-1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
+1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。        
+
 2）输入“Markdown Preview”后，选择此插件进行安装。
 
 #### 4、安装Markdown Editing
 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
+
 2）输入“Markdown Editing”后，选择此插件进行安装。
 
 #### 5、设置Markdown浏览器中查看快捷键
