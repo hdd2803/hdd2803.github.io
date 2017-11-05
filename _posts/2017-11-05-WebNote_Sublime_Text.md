@@ -28,6 +28,7 @@ AC5AA84C 034F7A53 2C9A801B 8AED239F
 —— END LICENSE ——
 ```
 
+
 #### 2、安装Package Control
 1）打开Sublime Text3，按下组合键Ctrl + `，调出控制台，在控制台输入如下命令后回车：
 ```
@@ -37,15 +38,18 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 2）安装成功后，按下组合件Shift + Command + P，即可打开Package Control。或者通过Tools→Command Palette来打开，如下图所示。
 ![](/images/posts/WebNote/SublimeText/1.png)
 
+
 #### 3、安装Markdown Preview
 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。  
 
 2）输入“Markdown Preview”后，选择此插件进行安装。
 
+
 #### 4、安装Markdown Editing
 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
 
 2）输入“Markdown Editing”后，选择此插件进行安装。
+
 
 #### 5、设置Markdown浏览器中查看快捷键
 1）选择Sublime Text→Perferences→Key Bindings，打开如下页面。
@@ -57,6 +61,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     { "keys": ["command+r"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
 ]
 ```
+
 
 #### 6、设置浏览器自动刷新功能
 1）选择Sublime Text→Perferences→Package Settings→Markdown Preview→Setting-User，打开如下页面。
@@ -80,6 +85,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 7）个人不建议使用MarkdownLivePreview来进行双面浏览显示，因为它显示的不全面，有些细节无法反映。
 
+
 #### 7、设置自动保存功能（可选）
 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
 
@@ -94,10 +100,12 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 `"auto_save_delay_in_seconds": 1`
 即可设置自己的保存间隔。
 
+
 #### 8、删除多余的插件（可选）
 1）打开Package Control，输入“PCRP”后点击回车，进入删除插件的页面。
 
 2）选择你不需要的插件回车，即可删除。
+
 
 #### 9、关闭文件记忆功能（可选）
 1）选择Sublime Text→Perferences→Settings，打开如下页面。
@@ -111,6 +119,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 }
 ```
 
+
 #### 10、介绍几个实用功能
 1）SideBarEnhancements：侧栏右键功能增强。
 
@@ -120,6 +129,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 4）ZenCoding：前端开发方面的插件。安装后可直接使用，Tab键触发，Alt+Shift+W是个代码机器。
   
+
 ### 二、Windows下的配置
 Windows下的配置和MacOS下的大致相同，不同的地方就是快捷键的位置。比如：   
 
