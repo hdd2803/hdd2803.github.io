@@ -36,14 +36,14 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 - 2）安装成功后，按下组合件Shift + Command + P，即可打开Package Control。或者通过Tools→Command Palette来打开，如下图所示。
 ![](/images/posts/WebNote/SublimeText/1.png)
 
-
 #### 3、安装Markdown Preview
-- 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。        
+- 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。  
 - 2）输入“Markdown Preview”后，选择此插件进行安装。
 
 #### 4、安装Markdown Editing
-- 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
-- 2）输入“Markdown Editing”后，选择此插件进行安装。
+1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
+
+2）输入“Markdown Editing”后，选择此插件进行安装。
 
 #### 5、设置Markdown浏览器中查看快捷键
 - 1）选择Sublime Text→Perferences→Key Bindings，打开如下页面。
@@ -73,18 +73,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 #### 7、设置自动保存功能（可选）
 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
-<p>
 2）输入“Auto-save”后，选择此插件进行安装。
-<p>
 3）每次打开.md格式文件后，打开Package Control，输入“current file only”后点击回车，即打开了自动保存功能。
-<p>
 4）若需要设置保存的间隔，则选择Sublime Text→Perferences→Package Settings→Auto-save，打开Setting-Default和Setting-User，如下所示。
 ![](/images/posts/WebNote/SublimeText/5.png)
-<p>
 5）将Settin-Default中的内容复制到Setting-User，并修改如下设置：
 `"auto_save_delay_in_seconds": 1`
 即可设置自己的保存间隔。
-<p>
 
 #### 8、删除多余的插件（可选）
 - 1）打开Package Control，输入“PCRP”后点击回车，进入删除插件的页面。
