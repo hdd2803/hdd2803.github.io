@@ -72,14 +72,19 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 - 7）个人不建议使用MarkdownLivePreview来进行双面浏览显示，因为它显示的不全面，有些细节无法反映。
 
 #### 7、设置自动保存功能（可选）
-- 1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
-- 2）输入“Auto-save”后，选择此插件进行安装。
-- 3）每次打开.md格式文件后，打开Package Control，输入“current file only”后点击回车，即打开了自动保存功能。
-- 4）若需要设置保存的间隔，则选择Sublime Text→Perferences→Package Settings→Auto-save，打开Setting-Default和Setting-User，如下所示。
+1）打开Package Control，输入“PCIP”后点击回车，进入安装插件的页面。
+<p>
+2）输入“Auto-save”后，选择此插件进行安装。
+<p>
+3）每次打开.md格式文件后，打开Package Control，输入“current file only”后点击回车，即打开了自动保存功能。
+<p>
+4）若需要设置保存的间隔，则选择Sublime Text→Perferences→Package Settings→Auto-save，打开Setting-Default和Setting-User，如下所示。
 ![](/images/posts/WebNote/SublimeText/5.png)
-- 5）将Settin-Default中的内容复制到Setting-User，并修改如下设置：
+<p>
+5）将Settin-Default中的内容复制到Setting-User，并修改如下设置：
 `"auto_save_delay_in_seconds": 1`
 即可设置自己的保存间隔。
+<p>
 
 #### 8、删除多余的插件（可选）
 - 1）打开Package Control，输入“PCRP”后点击回车，进入删除插件的页面。
