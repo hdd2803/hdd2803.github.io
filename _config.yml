@@ -1,17 +1,17 @@
 # Basic
 title: Dong
 subtitle: 终生学习者
-description: 欢迎来到我的学习小站~
+description: “日事日毕，日清日高”
 # 头像里面的标题
 avatarTitle: Dong
 # 头像里面的描述
 avatarDesc: Java / 个人学习
-url: "http://baixin.io"
+url: "http://hdd2803.io"
 
 # Comment
 comment:
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    disqus: Dong
+    uyan: 2148129  # 有言id,登录有言官网申请
 
 # Social
 social:
