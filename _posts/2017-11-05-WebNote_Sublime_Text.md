@@ -78,7 +78,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 4）输入“LiveReload”后，选择此插件进行安装，重启Sublime Text3。
 
-5）在每次打开.md格式文件后，打开Package Control，输入“Simple Reload with delay (400ms)”后点击回车，即可尽情的编辑Markdown文件了。每次保存文件后，就会在浏览器打开的页面中自动刷新。
+5）在每次打开.md格式文件后，打开Package Control，先输入`LiveReload: Enable/disable plug-ins`回车，然后选择`Simple Reload with delay (400ms)`后点击回车，即可尽情的编辑Markdown文件了。每次保存文件后，就会在浏览器打开的页面中自动刷新。
 
 6）对于一些文件需要调整到Markdown模式下编辑，则点击Sublime Text的右下角，选择MarkdownEditing→Markdown，如下图所示。
 ![](/images/posts/WebNote/SublimeText/4.png)
