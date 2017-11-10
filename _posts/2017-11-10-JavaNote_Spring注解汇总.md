@@ -18,7 +18,7 @@ tag: WebNote
 4、@Target({TYPE, METHOD, FIELD, PARAMETER})：表示含有此注解的注解使用范围。
 [](/images/posts/JavaNote/SpringAnnotation/1.png)
 
-二、Bean类注解
+### 二、Bean类注解
 1、@Component：将类标记为一个组件，以Bean的形式注入到Spring容器中。相当于xml配置中的`<bean id="" class=""/>`。bean的ID默认为将类名第一个字母变为小写的字符串。
 
 2、@ComponentScan：会默认扫描与配置类相同的包，将扫描到的@Component类自动注入到Spring容器中，免去写@Bean方法。
