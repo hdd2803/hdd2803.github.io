@@ -11,9 +11,9 @@ tag: WebNote
 2、@Inherited：表示含有此注解的注解可以被子类继承，只能用在类上。
 
 3、@Retention(RUNTIME)：表示含有此注解的注解会保留到哪个。 例如：
-> SOURCE--只在源代码级别保留，编译时就会被忽略。
-> CLASS--编译时被保留，在class文件中存在，但JVM将会忽略。
-> RUNTIME--将被JVM保留，所以他们能在运行时被JVM或其他使用反射机制的代码所读取和使用。
+- SOURCE--只在源代码级别保留，编译时就会被忽略。
+- CLASS--编译时被保留，在class文件中存在，但JVM将会忽略。
+- RUNTIME--将被JVM保留，所以他们能在运行时被JVM或其他使用反射机制的代码所读取和使用。
 
 4、@Target({TYPE, METHOD, FIELD, PARAMETER})：表示含有此注解的注解使用范围。
 [](/images/posts/JavaNote/SpringAnnotation/1.png)
@@ -103,14 +103,14 @@ tag: WebNote
 1、@Override：指定此方法被子类重写。加上此注解可以确认方法是否写对，若写错会报错。
 
 2、@SuppressWarnings(xxx)：屏蔽某些编译时的警告信息。例如：
-> @SuppressWarnings("unused") 屏蔽方法或对象从未使用的警告。
-> @SuppressWarnings("rawtypes") 屏蔽对象未使用泛型指定类型的警告。
-> @SuppressWarnings("deprecation")屏蔽使用了已过时或者不推荐使用的类或方法时的警告。
-> @SuppressWarnings("unchecked") 屏蔽未执行类型转换检查的警告。
-> @SuppressWarnings("fallthrough") 屏蔽当Switch程序块直接通往下一种情况而没有Break时的警告。
-> @SuppressWarnings("path") 屏蔽在类、源文件等路径中有不存在的路径时的警告。
-> @SuppressWarnings("serial") 屏蔽当在可序列化的类上缺少serialVersionUID定义时的警告。
-> @SuppressWarnings("all") 屏蔽所有情况的警告。
+- @SuppressWarnings("unused") 屏蔽方法或对象从未使用的警告。
+- @SuppressWarnings("rawtypes") 屏蔽对象未使用泛型指定类型的警告。
+- @SuppressWarnings("deprecation")屏蔽使用了已过时或者不推荐使用的类或方法时的警告。
+- @SuppressWarnings("unchecked") 屏蔽未执行类型转换检查的警告。
+- @SuppressWarnings("fallthrough") 屏蔽当Switch程序块直接通往下一种情况而没有Break时的警告。
+- @SuppressWarnings("path") 屏蔽在类、源文件等路径中有不存在的路径时的警告。
+- @SuppressWarnings("serial") 屏蔽当在可序列化的类上缺少serialVersionUID定义时的警告。
+- @SuppressWarnings("all") 屏蔽所有情况的警告。
 
 ### 六、测试类注解
 1、@RunWith（xxx.class）：指定类运行时需要依赖的测试类。
@@ -207,10 +207,3 @@ BigDecimal定义的最小值的字符串表示。小数存在精度。
 
 <br>
 转载请注明：[Dong的博客](http://hdd2803.github.io) » [Spring注解汇总](http://hdd2803.github.io/2017/11/JavaNote_Spring注解汇总/)
-
-
-
-
-
-
-
