@@ -2,7 +2,7 @@
 layout: post
 title: Spring注解汇总
 date: 2017-11-10 
-tag: WebNote
+tag: JavaNote
 ---
 
 ### 一、元注解
