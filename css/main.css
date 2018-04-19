@@ -399,7 +399,7 @@ img::-moz-selection {
 
   .footer {
     display: block;
-    padding: 2em 0 0 0;
+    /*padding: 2em 0 0 0;*/
     border-top: 1px solid #DDDDDD;
     font-size: .7em;
     color: #b3b3b3; }
@@ -766,7 +766,7 @@ img::-moz-selection {
   }
   .pagination {
     display: block;
-    margin: 0 0 4em 0; 
+    margin: 0 0 1em 0; 
   }
 
   .pagination__page-number {
